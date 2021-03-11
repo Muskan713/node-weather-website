@@ -1,0 +1,71 @@
+body {
+   margin: 0;
+   display:block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: brown;
+}
+
+.topnav a {
+    float: right;
+    padding: 14px 14px;
+    font-size: medium;
+    text-decoration: none;
+    color:white;
+}
+
+.topnav a :hover {
+    background-color: cornflowerblue;
+    color:black;
+}
+
+header {
+  background-color: dodgerblue;
+  padding: 25px;
+}
+
+header h1{
+    color: #000;
+    text-align: center;
+}
+
+header a {
+    color:white;    
+    float: right;
+    padding: 5px;
+}
+
+#p1 {
+    text-align: center;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-decoration: darkorange;
+}
+
+form {
+    text-align: center;
+}
+
+#element-1 {
+    text-align: center;
+}
+
+#element-2 {
+    text-align: center;
+}
+
+img {
+    align-content: center;
+    padding: 5px;
+    width: 10%;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+}
