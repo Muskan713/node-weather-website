@@ -6,6 +6,7 @@ const forecast = require('./utlis/forecast')
 const { title } = require('process')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 
 // Define Paths for express config
@@ -88,10 +89,6 @@ app.get('/products',(req,res) => {
 })
 
 
-
-
-
-
 app.get('/help/*', (req,res) =>
 {
     res.render('error',{
@@ -108,6 +105,6 @@ app.get('*', (req,res) => {
 })
 
 
-app.listen(3000,() => {
-    console.log('Server is up on port 3000')
+app.listen(port,() => {
+    console.log('Server is up on port ' + port)
 })
